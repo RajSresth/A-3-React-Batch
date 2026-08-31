@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Child = (props) => {
-  const {image, age, fullname, jersyNo, team} = props.player;
+  const {image, age, fullname, jersyNo, team} = props;
 
   return (
     <div className="card">
