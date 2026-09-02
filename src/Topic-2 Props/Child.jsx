@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Child = (props) => {
-  const {image, age, fullname, jersyNo, team} = props;
+  const { image, age, fullname, jersyNo, team } = props;
 
   return (
     <div className="card">
@@ -15,7 +15,7 @@ const Child = (props) => {
         <div>Jersy: {jersyNo}</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Child
+export default Child;
