@@ -66,6 +66,7 @@
   background-color: rgb(146, 18, 146);
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 .container .form__bottom button:last-of-type {
   margin-top: 10px;
@@ -75,4 +76,16 @@
   margin-top: 10px;
   text-align: center;
   color: grey;
+}
+
+.password_input_container{
+  position: relative;
+}
+
+.password_input_container .icon_container{
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translate(0, -30%);
+  cursor: pointer;
 }
