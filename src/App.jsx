@@ -5,12 +5,14 @@
 // import Signup from "./Topic-4 Controlled Form/Signup";
 // import Counter from "./Topic-5 useRef hook/Counter";
 // import SearchBar from "./Topic-5 useRef hook/SearchBar";
-import Signup from "./Topic-6 Uncontrolled Form/Signup";
+// import Signup from "./Topic-6 Uncontrolled Form/Signup";
+
+import ComponentA from "./Topic-7 useEffect Hook/ComponentA";
 
 const App = () => {
   return (
     <div>
-      <Signup />
+      <ComponentA />
     </div>
   );
 };
