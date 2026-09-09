@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container .center__container {
+  padding: 100px 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 80px;
+  border: 2px solid skyblue;
+}
+
+.center__container .box {
+  width: 260px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: rgb(236, 232, 232);
+}
+
+.center__container .card {
+  width: 260px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1.5px solid lightgray;
+  padding: 20px;
+  position: relative;
+}
+
+.center__container .card .profile {
+  border: 1.5px solid lightgray;
+  border-radius: inherit;
+  width: 100%;
+  height: 65%;
+  overflow: hidden;
+}
+
+.center__container .card .profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.center__container .card .title {
+  font-weight: bold;
+  letter-spacing: 1.25px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.center__container .card .price {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.center__container .card .category {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.center__container .card button {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
