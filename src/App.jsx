@@ -8,6 +8,7 @@ import Shop from "./Topic-8 React Routing/pages/Shop";
 import Profile from "./Topic-8 React Routing/pages/Profile";
 import Cart from "./Topic-8 React Routing/pages/Cart";
 import Contact from "./Topic-8 React Routing/pages/Contact";
+import ProductPage from "./Topic-8 React Routing/pages/ProductPage";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+      {
+        path: "/product/:id",
+        element: <ProductPage/>
+      }
     ],
   },
   {
