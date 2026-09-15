@@ -8,6 +8,7 @@ const Header = () => {
         <NavLink to="/">
           <div className="text-2xl font-semibold tracking-wider">LOGO</div>
         </NavLink>
+
         <nav className="flex gap-5 font-semibold text-lg tracking-wide">
           <NavLink
             to="/shop"

@@ -30,7 +30,7 @@ const Signup = () => {
               type="text"
               id="fullname_input"
               placeholder="Enter fullname"
-              className="mt-1 w-full px-3.5 py-1.75 text-lg border-none ring-1 ring-gray-400 focus:ring-1 rounded-md  focus:ring-blue-500"
+              className="mt-1 w-full px-3.5 py-1.75 text-lg border-none outline-none ring-2 ring-gray-400 focus:ring-2 rounded-md  focus:ring-blue-500"
               required
             />
           </div>
@@ -43,7 +43,7 @@ const Signup = () => {
               type="email"
               id="email_input"
               placeholder="xyz@gmail.com"
-              className="mt-1 w-full px-3.5 py-1.75 text-lg border-none ring-1 ring-gray-400 focus:ring-1 rounded-md  focus:ring-blue-400"
+              className="mt-1 w-full px-3.5 py-1.75 text-lg border-none outline-none ring-2 ring-gray-400 focus:ring-2 rounded-md  focus:ring-blue-500"
               required
             />
           </div>
@@ -57,7 +57,7 @@ const Signup = () => {
                 type={showPassword ? "text" : "password"}
                 id="password_input"
                 placeholder="at least 8 characters"
-                className="mt-1 w-full px-3.5 py-1.75 text-lg border-none ring-1 ring-gray-400 focus:ring-1 rounded-md  focus:ring-blue-400"
+                className="mt-1 w-full px-3.5 py-1.75 text-lg border-none outline-none ring-2 ring-gray-400 focus:ring-2 rounded-md  focus:ring-blue-500"
                 required
               />
               <div>{showPassword ? <></> : <></>}</div>
