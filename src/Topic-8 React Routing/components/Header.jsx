@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="sticky z-90 top-0 left-0 h-25 w-screen bg-gray-200">
+    <header className="sticky z-90 top-0 left-0 h-25 w-screen bg-blue-100">
       <div className="w-full max-w-300 h-full mx-auto flex justify-between items-center">
         <NavLink to="/">
           <div className="text-2xl font-semibold tracking-wider">LOGO</div>
