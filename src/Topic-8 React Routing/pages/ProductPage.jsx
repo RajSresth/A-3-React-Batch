@@ -55,7 +55,7 @@ const ProductPage = () => {
   if (isError) return <ErrorPage error={error} />;
 
   return (
-    <div className="w-full ">
+    <div>
       <div className="min-h-screen max-w-300  mx-auto flex flex-col flex-wrap py-20">
         <div className="h-full max-h-115 flex justify-between items-start flex-wrap">
           <div className="relative w-full max-w-130 h-115 border-2 border-gray-300 rounded-2xl p-6">
@@ -102,9 +102,11 @@ const ProductPage = () => {
                   +
                 </button>
               </div>
-              <button className="w-full max-w-85 py-2 bg-blue-600 text-white font-semibold tracking-wider rounded-lg hover:cursor-pointer">
+              <div className="pr-10">
+                <button className="w-full py-3 bg-blue-600 text-white font-semibold tracking-wider rounded-lg hover:cursor-pointer">
                 Add To Cart
               </button>
+              </div>
             </div>
           </div>
         </div>
