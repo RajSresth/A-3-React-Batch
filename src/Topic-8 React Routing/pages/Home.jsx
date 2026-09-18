@@ -43,14 +43,14 @@ const Home = () => {
 
   return (
     <div className="w-full min-h-[calc(100vh - 100px)]">
-      <div className="mx-auto w-screen max-w-300  py-25">
-        <div className="mx-auto w-full max-w-250 h-120 shadow-[0px_0px_10px_2px_#bbb]  rounded-4xl overflow-hidden cursor-pointer">
+      <div className="mx-auto w-screen max-w-300  py-20">
+        <div className="mx-auto w-full max-w-250 h-130 shadow-[0px_0px_10px_2px_#bbb]  rounded-4xl overflow-hidden cursor-pointer  bg-[#d3bfa6]">
           <Swiper
             modules={[Autoplay, Navigation, Pagination]}
             navigation={true}
             pagination={{ clickable: true }}
             autoplay={{
-              delay: 2000,
+              delay: 2500,
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
@@ -65,7 +65,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-auto w-screen max-w-300 flex flex-wrap gap-14 p-25">
+      <div className="mx-auto w-screen max-w-300 flex justify-center flex-wrap gap-14 p-25">
         {products.map((product) => (
           <Link to={`product/${product.id}`} key={product.id}>
             <ProductList {...product} />

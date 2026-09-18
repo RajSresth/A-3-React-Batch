@@ -1,10 +1,10 @@
-import board from "../../assets/board.jpg";
-import candle from "../../assets/candle.jpg";
-import lamp from "../../assets/lamp.jpg";
-import books from "../../assets/books.jpg";
-import vas1 from "../../assets/vas1.jpg";
-import vas2 from "../../assets/vas2.jpg";
-import throwBlanket from "../../assets/throwBlanket.jpg";
+import board from "../../assets/board-removebg-preview.png";
+import candle from "../../assets/candle-removebg-preview.png";
+import lamp from "../../assets/lamp-removebg-preview.png";
+import books from "../../assets/books-removebg-preview.png";
+import vas1 from "../../assets/vas1-removebg-preview.png";
+import vas2 from "../../assets/vas2-removebg-preview.png";
+import throwBlanket from "../../assets/throwBlanket-removebg-preview.png";
 
 const carouselProducts = [
   {
